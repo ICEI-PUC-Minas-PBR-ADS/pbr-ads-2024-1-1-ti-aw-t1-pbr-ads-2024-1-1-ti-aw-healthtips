@@ -1,10 +1,10 @@
-# TÍTULO DO PROJETO
+# HEALTH TIPS
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`TRABALHO INTERDISCIPLINAR: APLICAÇÕES WEB`
 
-`SEMESTRE`
+`1° SEMESTRE`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 

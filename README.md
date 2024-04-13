@@ -10,10 +10,11 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* LINCON RANGEL SCHAPER 
-* ESDRAS MISAEL 
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Esdras Misael Da Silva Ferreira 
+* Franks Henrique Carvalho De Castro 
+* João Miguel Da Silva Fernandes 
+* Lincon Rangel Schaper  
+* Ludmilla Caroline Gomes Dutra
 
 ## Orientador
 

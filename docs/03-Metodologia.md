@@ -47,6 +47,7 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 **Scrum Master (SM):**
 
 [Ludmilla Caroline](https://github.com/Ludcaroline)
+
 **Development Team (Dev):** 
 
 [Franks Henrique](https://github.com/FranksEnrique) 

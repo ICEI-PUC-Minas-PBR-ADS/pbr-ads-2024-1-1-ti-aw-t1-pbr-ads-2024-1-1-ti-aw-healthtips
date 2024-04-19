@@ -43,11 +43,16 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 **Product Owner (PO):**  
 [Lincon Rangel](https://github.com/LinconR)
+
 **Scrum Master (SM):**
+
 [Ludmilla Caroline](https://github.com/Ludcaroline)
 **Development Team (Dev):** 
+
 [Franks Henrique](https://github.com/FranksEnrique) 
+
 [Esdras Misael](https://github.com/EsdrasMisael) 
+
 João Miguel
 
 ### Processo

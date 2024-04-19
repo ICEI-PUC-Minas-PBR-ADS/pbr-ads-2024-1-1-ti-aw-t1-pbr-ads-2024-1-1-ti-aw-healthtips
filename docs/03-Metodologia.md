@@ -42,8 +42,8 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 ### Divisão de Papéis
 
 **Product Owner (PO):**  
-[Lincon Rangel](https://github.com/LinconR) 
-**Scrum Master (SM):**  
+[Lincon Rangel](https://github.com/LinconR)
+**Scrum Master (SM):**
 [Ludmilla Caroline](https://github.com/Ludcaroline)
 **Development Team (Dev):** 
 [Franks Henrique](https://github.com/FranksEnrique) 

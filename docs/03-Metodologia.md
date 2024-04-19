@@ -4,6 +4,8 @@
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
 Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A metodologia utilizada pela equipe foi o **SCRUM**, através do **TRELLO** onde todos da equipe tem acesso e podem realizar os commits. A equipe realiza o Daily SCRUM's uma vez por semana para atualização do projeto e se comunica ao longo da semana através do Whatsapp.
+
 
 ## Controle de Versão
 
@@ -39,39 +41,27 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+**Product Owner (PO):**  
+[Lincon Rangel](https://github.com/LinconR) 
+**Scrum Master (SM):** 
+[Ludmilla Caroline](https://github.com/Ludcaroline)
+**Development Team (Dev):** 
+[Franks Henrique](https://github.com/FranksEnrique)
+[Esdras Misael](https://github.com/EsdrasMisael)
+João Miguel
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+O processo do projeto terá 4 Sprints: em cada uma será entregue para o cliente o que já foi, está sendo e será desenvolvido até a entrega final do projeto, sendo a 4° sprint. O controle e a atuliazação do desenvolvimento está sendo atráves do Trello, onde todos da equipe tem acesso. Os desenvolvedores vão se organizando com a orientação e ajuda do Scrum Master para começar a fazer as tarefas e os trabalhos indicados pelo Product Owner como prioridades. 
  
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Repositório: **Github**
+- Editor de código: **VSC (Visual Studio Code)**
+- Ferramentas de comunicação: **Whatsapp**
+- Ferramentas de desenho de tela (_wireframing_): **FIGMA**
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+O editor de código é uma ferramenta com uma ampla opções de linguagens, gratuito e mantendo um padrão pora a equipe e o site. Para a comunicação foi utilizada a ferramenta WhatsApp, sendo o aplicativo já utilizado por toda a equipe. Por fim, para criar os Wireframes, foi utilizado o FIGMA.

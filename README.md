@@ -6,7 +6,8 @@
 
 `1° SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O site Helath Tips tem como objetivo levar para as pessoas uma forma mais acessível de se realizar atividades físicas, e ter um acompanhamento nutricional e dicas de saúde. 
+Alguns fatores como, correria do dia a dia, dificuldade de locomoção, faz com que as pessoas tenha um empecilho para cuidar da sua saúde. Com o site, as pessoas vão poder fazer isso, através de suas casas, no horário que for mais apropriado ou conseguir acessar de onde estiver. Com profissionais cadastrados e empenhados a oferecer seu serviço da melhor forma possível, tanto online quanto presencialmente e até mesmo, realizar uma ficha para que o usuário possa ter um cronograma para seguir.
 
 ## Integrantes
 

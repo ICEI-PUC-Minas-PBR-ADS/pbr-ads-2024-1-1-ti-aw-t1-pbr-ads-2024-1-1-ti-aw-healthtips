@@ -1,44 +1,53 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+![Persona 1 - Ana Maria Braga](https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2024-1-1-ti-aw-t1-pbr-ads-2024-1-1-ti-aw-healthtips/blob/main/docs/img/persona1.png)
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+![Persona 2 - Maria Aparecida](https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2024-1-1-ti-aw-t1-pbr-ads-2024-1-1-ti-aw-healthtips/blob/main/docs/img/persona2.png)
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+![Persona 3 - Marcos Silva](https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2024-1-1-ti-aw-t1-pbr-ads-2024-1-1-ti-aw-healthtips/blob/main/docs/img/persona3.png)
+
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+**➢ Maria da gloria**, aposentada, viúva, 77 anos. Passa maior parte do 
+tempo em casa e nunca praticou exercício físico, pois nunca teve 
+instrução e não conhece lugares que consegue proporcionar para ela 
+uma experiência boa com as limitações que ela tem. Maria quer poder ir 
+aos forrós e não se cansar tão fácil, realizar seus afazeres domésticos 
+sem problema e o principal de tudo, se manter ativa.
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+**➢ Marta Janaína**, assistente social, casada, 51 anos. Precisa praticar 
+exercício físico nos dois dias da semana, já que nos dias restantes
+pratica natação. Para poder ter o acompanhamento on-line ou 
+presencial, seria benéfico devido à correria do dia a dia. E contrataria o 
+serviço para os pais, de 80 e 84 anos, devido à dificuldade em 
+locomoção. Com a ajuda de alguém para auxiliá-los, poderiam praticar 
+também exercícios físicos para evitar quaisquer problemas de saúde.
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+**➢ Olária Santana**, motorista de aplicativo, 50 anos. Precisa de 
+um acompanhamento com nutricionista devido ao mal hábito alimentar que 
+vem adquirindo, por conswquência das demandas e horários do seu serviço.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+**➢ Ângelo César**, mecânico autônomo, casado, 52 anos. Precisa realizar 
+atividade física, devido aos problemas de saúde. Foi recomendado que 
+fizesse uma caminhada ou até mesmo musculação. Para que minimize 
+os problemas que vem adquirindo pela falta de exercício.
+
+**➢ Camila Gomes**, costureira autônoma, 33 anos, casada e recentemente 
+com uma filha de 7 meses. Sua vida está muito corrida e sente a 
+necessidade de fazer algum tipo de exercício físico. Para manter os 
+hábitos saudáveis e cuidar de sua saúde.
+
+**➢ Maria Eduarda Souza**, corretora de imóveis, idade 46. Precisa praticar 
+exercícios todos os dias da semana, atualmente pratica somente 3 dias 
+devido a sua rotina agitada, e se fizesse todos os dias conseguiria 
+alcançar seu objetivo que seria um corpo estético bonito.
+
+**➢ Roberta Campos**, educadora física, 26 anos. Quer sair da sala de aula e
+começar sua carreira como personal. Com o site pode se cadastrar e 
+criar sua rede de clientes.
 
 ## Requisitos
 
@@ -48,31 +57,31 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|RF-001| Incluir formulários para que o usuário possa inserir dados para cadastro e login | ALTA | 
+|RF-002| Permitir que o usuário recupere a senha | MÉDIA |
+|RF-003| Permitir que os profissionais, possam adicionar e excluir documentos | ALTA | 
+|RF-004| Permitir que os usuários entram e saiam de suas contas  | MÉDIA |
+|RF-005| Suporte ao cliente: oferecer meios de contato para os usuários | MÉDIA | 
+|RF-006| Permitir que o usuário tenha acesso aos profissionais  | ALTA |
+|RF-007| Oferecer ferramentas ao usuário, como calcular o IMC e um diário de suas evoluções | MÉDIA | 
+|RF-008| Ter um campo de pesquisa onde possa encontrar informações sobre saúde, como artigos, vídeos e etc | BAIXA |
+|RF-009| Permitir que o usuário possa fazer comentários e avaliações sobre o conteúdo | MÉDIA | 
+|RF-010| Permitir que o usuário possa realizar agendamentos e reagendamentos de consultas e avaliações  | ALTA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O site deve ser intuitivo, onde o usuário consiga navegar facilmente | ALTA | 
+|RNF-002| Sistema suportar mais de um usuário ao mesmo tempo |  ALTA | 
+|RNF-003| O sistema deve processar as requições do usuário em no máx. 3s | MÉDIA | 
+|RNF-004| Cumprir com as leis de proteção de dados | ALTA | 
+|RNF-005| Site seja responsivo| MÉDIA | 
+|RNF-006| Consiga suportar e rodar os vídeos e ligações| ALTA | 
+|RNF-007| Facilitar a manutenção e atualização do site | MÉDIA | 
+|RNF-008| Assegurar que o site esteja disponível continuamente para que os usuários possam acessar quando quiserem |ALTA| 
+|RNF-009| Garantir que o site tenha o mínimo de falhas ou erros | MÉDIA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -84,8 +93,3 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| Não pode ser desenvolvido um módulo de backend        |
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)

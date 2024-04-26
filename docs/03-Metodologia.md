@@ -3,7 +3,6 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
 A metodologia utilizada pela equipe foi o **SCRUM**, através do **TRELLO** onde todos da equipe tem acesso e podem realizar os commits. A equipe realiza o Daily SCRUM's uma vez por semana para atualização do projeto e se comunica ao longo da semana através do Whatsapp.
 
 
@@ -54,7 +53,7 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 [Esdras Misael](https://github.com/EsdrasMisael) 
 
-João Miguel
+[João Miguel](https://github.com/726263637)
 
 ### Processo
 

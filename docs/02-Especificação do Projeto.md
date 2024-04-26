@@ -1,5 +1,7 @@
 # Especificações do Projeto
 
+<span style="color:red">Pré-requisitos: <a href="01-Documentação de Contexto.md"> Documentação de Especificação</a></span>
+
 ## Personas
 
 ![Persona 1 - Ana Maria Braga](https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2024-1-1-ti-aw-t1-pbr-ads-2024-1-1-ti-aw-healthtips/blob/main/docs/img/persona1.png)

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inknut Antiqua:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Krona One:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home-quem-somos">
+      <div class="home-quem-somos-child"></div>
+      <div class="log-in">Log in</div>
+      <div class="home">Home</div>
+      <img
+        class="logo-helath-tips-1-icon"
+        alt=""
+        src="./public/logo-helath-tips-1@2x.png"
+      />
+
+      <div class="home-quem-somos-child"></div>
+      <div class="log-in">Log in</div>
+      <div class="home1">Home</div>
+      <img
+        class="logo-helath-tips-1-icon"
+        alt=""
+        src="./public/logo-helath-tips-1@2x.png"
+      />
+
+      <div class="home">Log up</div>
+      <img
+        class="logo-helath-tips-1-icon"
+        alt=""
+        src="./public/logo-helath-tips-1@2x.png"
+      />
+
+      <div class="home-quem-somos-inner"></div>
+      <div class="quem-somos" id="link-preto"><a href="/index.html" >Quem somos</a></div>
+      <div class="suporte">Suporte</div>
+      <div class="dicas-de-saude">Dicas de Saúde</div>
+      <div class="servios">Serviços</div>
+      <div class="rectangle-parent">
+        <div class="group-child"></div>
+        <img
+          class="menuacessoraprodape-icon"
+          alt=""
+          src="./public/menuacessoraprodape@2x.png"
+        />
+
+        <img class="gruporodape-icon" alt="" src="./public/gruporodape.svg" />
+      </div>
+      <div class="rectangle-div" data-scroll-to="rectangle"></div>
+      <div class="bem-vindo-ao-nosso-container">
+        <span class="bem-vindo-ao-nosso-container1">
+          <p class="bem-vindo-ao-nosso">
+            Bem-vindo ao nosso espaço de saúde e bem-estar! Nós somos um grupo
+            de entusiastas da saúde, Nossa jornada começou com uma simples
+            ideia: todos merecem acesso à informação e orientação confiáveis
+            para alcançar seu melhor estado de saúde.
+          </p>
+          <p class="bem-vindo-ao-nosso">&nbsp;</p>
+          <p class="bem-vindo-ao-nosso">
+            Nosso time é composto por uma equipe diversificada de profissionais
+            de saúde, incluindo, nutricionistas, e educadores físicos. Unidos
+            pela mesma missão, Cada membro da nossa equipe tem sua própria
+            história única de como a saúde e o bem-estar transformaram suas
+            vidas. Desde superar desafios pessoais até encontrar o equilíbrio
+            entre trabalho, família e autocuidado, compartilhamos nossas
+            jornadas para mostrar que é possível alcançar uma vida saudável e
+            feliz, independentemente dos obstáculos no caminho.
+          </p>
+          <p class="bem-vindo-ao-nosso">&nbsp;</p>
+          <p class="bem-vindo-ao-nosso">
+            Acreditamos que a chave para uma boa saúde é a educação e o
+            empoderamento. Por isso, nosso site é dedicado a fornecer
+            informações precisas e práticas, desde dicas simples de nutrição até
+            estratégias avançadas de gestão do estresse. Estamos aqui para
+            guiá-lo em sua jornada de saúde, oferecendo suporte, motivação e
+            recursos confiáveis a cada passo do caminho.
+          </p>
+          <p class="bem-vindo-ao-nosso">
+            Junte-se a nós nesta jornada rumo a uma vida mais saudável e
+            vibrante. Seja bem-vindo à nossa comunidade de saúde e bem-estar!
+          </p>
+        </span>
+      </div>
+      <div class="quem-somos1">Quem somos?</div>
+      <img
+        class="whatsapp-image-2024-04-09-at-1"
+        alt=""
+        src="./public/whatsapp-image-20240409-at-1454-1@2x.png"
+      />
+
+      <img class="rectangle-icon" alt="" src="./public/rectangle-23@2x.png" />
+
+      <img
+        class="home-quem-somos-child1"
+        alt=""
+        src="./public/rectangle-24@2x.png"
+      />
+
+      <div class="home-quem-somos-child2"></div>
+    </div>
+
+    <script>
+      var quemSomos = document.getElementById("quemSomos");
+      if (quemSomos) {
+        quemSomos.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='rectangle']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,232 @@
+html {
+  font-size: 87px;
+
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.link-preto {
+  color: black;
+  text-decoration: none;
+} 
+.fundo-home {
+  position: absolute;
+  top: 0;
+  left: 0.04em;
+  background-color: rgba(255, 250, 120, 0.16);
+  width: 14.52em;
+  height: 10.33em;
+}
+.cabealho-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff478;
+  width: 14.51em;
+  height: 1.98em;
+}
+.home,
+.log-in,
+.logup {
+  position: absolute;
+  top: 5.996em;
+  left: 54.916em;
+  font-size: 0.24em;
+  font-weight: 600;
+  display: inline-block;
+  width: 5.163em;
+  height: 1.829em;
+}
+.home,
+.logup {
+  left: 49.71em;
+  width: 4.45em;
+  height: 2.254em;
+}
+.home {
+  left: 44.504em;
+}
+.cabealho,
+.logo-helath-tips-1-icon {
+  position: absolute;
+  top: 0;
+  height: 1.98em;
+}
+.logo-helath-tips-1-icon {
+  left: 0;
+  width: 8.827em;
+  object-fit: cover;
+  mix-blend-mode: darken;
+}
+.cabealho {
+  left: 0.04em;
+  width: 14.51em;
+  color: #14a001;
+}
+.pagina-home-child {
+  margin: 0;
+  position: absolute;
+  top: 1.954em;
+  left: 0.037em;
+  background-color: rgba(20, 160, 1, 0.5);
+  width: 14.514em;
+  height: 0.506em;
+  transform: rotate(0.2deg);
+  transform-origin: 0 0;
+}
+.dicas-de-saude,
+.quem-somos,
+.servios,
+.suporte {
+  position: absolute;
+  top: 8.101em;
+  left: 21.795em;
+  font-size: 0.24em;
+  font-weight: 600;
+  white-space: pre-wrap;
+  transform: rotate(0.2deg);
+  transform-origin: 0 0;
+}
+.dicas-de-saude,
+.servios,
+.suporte {
+  top: 8.127em;
+  left: 31.253em;
+}
+.dicas-de-saude,
+.servios {
+  top: 8.071em;
+  left: 10.754em;
+}
+.servios {
+  top: 8.052em;
+  left: 3.712em;
+}
+.group-child {
+  position: absolute;
+  top: 0.06em;
+  left: 0.039em;
+  background-color: #fff;
+  width: 14.4em;
+  height: 0.81em;
+}
+.menuacessoraprodape-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 14.552em;
+  height: 0.838em;
+  object-fit: contain;
+}
+.gruporodape-icon {
+  position: absolute;
+  top: 0.53em;
+  left: 12.189em;
+  width: 1.64em;
+  height: 0.24em;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 9.49em;
+  left: 0;
+  width: 14.552em;
+  height: 0.87em;
+}
+.pagina-home-inner,
+.pagina-home-item {
+  position: absolute;
+  top: 2.93em;
+  left: 1.12em;
+  border-radius: 34px;
+  width: 12.46em;
+  height: 3.02em;
+  object-fit: cover;
+}
+.pagina-home-inner {
+  top: 6.52em;
+  left: 0.62em;
+  border-radius: 39px;
+  width: 4.19em;
+  height: 2.53em;
+  cursor: pointer;
+}
+.faa-uma-avaliao {
+  position: absolute;
+  top: 13.8em;
+  left: 3.429em;
+  font-size: 0.35em;
+  font-family: "Krona One";
+  color: #fff;
+  display: flex;
+  align-items: center;
+  width: 38.171em;
+  height: 3.2em;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rectangle-div {
+  position: absolute;
+  top: 6.52em;
+  left: 5.23em;
+  border-radius: 12px;
+  background-color: #fff;
+  width: 8.9em;
+  height: 2.62em;
+}
+.os-benefcios-da {
+  margin: 0;
+  font-size: 0.22em;
+}
+.blank-line {
+  margin: 0;
+  font-size: 0.15em;
+}
+h2 {
+ font-size: 15px;
+ text-transform: none;
+}
+.os-benefcios-da-container1 {
+  width: 100%;
+}
+.os-benefcios-da-container {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 6.39em;
+  left: 5.39em;
+  text-transform: capitalize;
+  font-family: "Krona One";
+  color: #000;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 8.81em;
+  height: 2.85em;
+}
+.whatsapp-image-2024-04-09-at-1 {
+  position: absolute;
+  top: 9.57em;
+  left: 13.9em;
+  border-radius: 18px;
+  width: 0.6em;
+  height: 0.69em;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.pagina-home {
+  width: 100%;
+  position: relative;
+  height: 10.36em;
+  text-align: left;
+  color: #000;
+  font-family: "Inknut Antiqua";
+}

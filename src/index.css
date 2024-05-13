@@ -1,0 +1,213 @@
+html {
+  font-size: 87px;
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+.link-preto{
+  color: black;
+  text-decoration: none;
+}
+.home-quem-somos-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff478;
+  width: 14.4em;
+  height: 1.94em;
+}
+.home,
+.log-in {
+  position: absolute;
+  top: 5.875em;
+  left: 54.5em;
+  font-size: 0.24em;
+  font-weight: 600;
+  color: #14a001;
+  display: inline-block;
+  width: 5.125em;
+  height: 1.792em;
+}
+.home {
+  left: 49.333em;
+  width: 4.417em;
+  height: 2.208em;
+}
+.logo-helath-tips-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8.76em;
+  height: 1.94em;
+  object-fit: cover;
+  mix-blend-mode: darken;
+}
+.home1 {
+  position: absolute;
+  top: 5.875em;
+  left: 44.167em;
+  font-size: 0.24em;
+  font-weight: 600;
+  color: #14a001;
+  display: inline-block;
+  width: 4.417em;
+  height: 2.208em;
+}
+.home-quem-somos-inner {
+  position: absolute;
+  top: 1.92em;
+  left: 0.001em;
+  background-color: rgba(20, 160, 1, 0.5);
+  width: 14.4em;
+  height: 0.48em;
+  transform: rotate(0.2deg);
+  transform-origin: 0 0;
+}
+.dicas-de-saude,
+.quem-somos,
+.servios,
+.suporte {
+  position: absolute;
+  font-size: 0.24em;
+  font-weight: 600;
+  white-space: pre-wrap;
+  transform: rotate(0.2deg);
+  transform-origin: 0 0;
+}
+.quem-somos {
+  top: 7.851em;
+  left: 21.17em;
+  cursor: pointer;
+}
+.dicas-de-saude,
+.servios,
+.suporte {
+  top: 7.877em;
+  left: 30.628em;
+}
+.dicas-de-saude,
+.servios {
+  top: 7.821em;
+  left: 10.129em;
+}
+.servios {
+  top: 7.802em;
+  left: 3.087em;
+}
+.group-child {
+  position: absolute;
+  top: 0.06em;
+  left: 0.04em;
+  background-color: #fff;
+  width: 14.51em;
+  height: 0.81em;
+}
+.menuacessoraprodape-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 14.547em;
+  height: 0.838em;
+  object-fit: contain;
+}
+.gruporodape-icon {
+  position: absolute;
+  top: 0.53em;
+  left: 12.189em;
+  width: 1.64em;
+  height: 0.24em;
+}
+.rectangle-div,
+.rectangle-parent {
+  position: absolute;
+  top: 9.43em;
+  left: -0.15em;
+  width: 14.55em;
+  height: 0.87em;
+}
+.rectangle-div {
+  top: 2.39em;
+  left: -0.2em;
+  border-radius: 12px;
+  background-color: #fff;
+  width: 14.51em;
+  height: 7.1em;
+}
+.bem-vindo-ao-nosso {
+  margin: 0;
+}
+.bem-vindo-ao-nosso-container1 {
+  width: 100%;
+}
+.bem-vindo-ao-nosso-container {
+  position: absolute;
+  top: 12.5em;
+  left: 1.8em;
+  font-size: 0.2em;
+  font-family: "Krona One";
+  display: flex;
+  align-items: center;
+  width: 64.4em;
+  height: 29em;
+}
+.quem-somos1 {
+  position: absolute;
+  top: 9.4em;
+  left: 1.267em;
+  font-size: 0.3em;
+  text-transform: capitalize;
+  font-family: "Krona One";
+}
+.whatsapp-image-2024-04-09-at-1 {
+  position: absolute;
+  top: 9.51em;
+  left: 13.75em;
+  border-radius: 18px;
+  width: 0.6em;
+  height: 0.69em;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 7.33em;
+  left: 10.7em;
+  border-radius: 24px;
+  width: 3.61em;
+  height: 1.93em;
+  object-fit: cover;
+}
+.home-quem-somos-child1 {
+  position: absolute;
+  top: 7.6em;
+  left: 0.14em;
+  width: 2.95em;
+  height: 1.83em;
+  object-fit: cover;
+}
+.home-quem-somos-child2 {
+  position: absolute;
+  top: 0;
+  left: -15.37em;
+  background-color: #d9d9d9;
+  width: 14.56em;
+  height: 10.17em;
+}
+.home-quem-somos {
+  width: 100%;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: rgba(255, 250, 120, 0.16);
+  height: 10.24em;
+  overflow: hidden;
+  text-align: left;
+  color: #000;
+  font-family: "Inknut Antiqua";
+}

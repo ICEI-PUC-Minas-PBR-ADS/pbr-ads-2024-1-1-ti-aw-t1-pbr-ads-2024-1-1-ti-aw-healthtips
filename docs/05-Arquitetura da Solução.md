@@ -15,63 +15,63 @@ Diagrama que permite a modelagem física de um sistema, através da visão dos s
 entre os mesmos.
 Exemplo:
 Os componentes que fazem parte da solução são apresentados na Figura
- +-------------------+
- | Frontend |
- +-------------------+
- |
- V
- +---------------------------------------+
- | Página de Início |
- +---------------------------------------+
- | Página de Cadastro/Login |
- +---------------------------------------+
- | Página do Usuário |
- | +-------------------------------+ |
- | | Ficha de Exercício | |
- | | - Lista de Fichas | |
- | +-------------------------------+ |
- | +-------------------------------+ |
- | | Aulas | |
- | | - Lista de Aulas Gravadas | |
- | +-------------------------------+ |
- | +-------------------------------+ |
- | | Ficha de Alimentos | |
- | | - Café da Manhã | |
- | | - Almoço | |
- | | - Lanche da Tarde | |
- | | - Janta | |
- | +-------------------------------+ |
- +---------------------------------------+
- |
- V
- +-------------------+
- | Backend |
- +-------------------+
- |
- V
- +---------------------------------------+
- | Servidor de Aplicação |
- +---------------------------------------+
- | - Gerenciamento de Usuários |
- | - Gerenciamento de Exercícios |
- | - Gerenciamento de Aulas |
- | - Gerenciamento de Alimentos |
- +---------------------------------------+
- |
- V
- +-------------------+
- | Banco de Dados |
- +-------------------+
- |
- V
- +---------------------------------------+
- | Banco de Dados de Usuários |
- +---------------------------------------+
- | Banco de Dados de Exercícios |
- +---------------------------------------+
- | Banco de Dados de Aulas |
- +---------------------------------------+
- | Banco de Dados de Alimentos |
+                              +-------------------+
+                              | Frontend          |
+                              +-------------------+
+                                       |
+                                       V
+                      +---------------------------------------+
+                      | Página de Início                      |
+                      +---------------------------------------+
+                      | Página de Cadastro/Login              |
+                      +---------------------------------------+
+                      | Página do Usuário                     |
+                      | +-------------------------------+     |
+                      | | Ficha de Exercício            |     |
+                      | | - Lista de Fichas             |     |
+                      | +-------------------------------+     |
+                      | +-------------------------------+     |
+                      | | Aulas                         |     |
+                      | | - Lista de Aulas Gravadas     |     |
+                      | +-------------------------------+     |
+                      | +-------------------------------+     |
+                      | | Ficha de Alimentos            |     |
+                      | | - Café da Manhã               |     |
+                      | | - Almoço                      |     |
+                      | | - Lanche da Tarde             |     |
+                      | | - Janta                       |     |
+                      | +-------------------------------+     |
+                      +---------------------------------------+
+                                         |
+                                         V
+                               +-------------------+
+                               | Backend           |
+                               +-------------------+
+                                         |
+                                         V
+                      +---------------------------------------+
+                      | Servidor de Aplicação                 |
+                      +---------------------------------------+
+                      | - Gerenciamento de Usuários           |
+                      | - Gerenciamento de Exercícios         |
+                      | - Gerenciamento de Aulas              |
+                      | - Gerenciamento de Alimentos          |
+                      +---------------------------------------+
+                                          |
+                                          V
+                                +-------------------+
+                                | Banco de Dados    |
+                                +-------------------+
+                                           |
+                                           V
+                      +---------------------------------------+
+                      | Banco de Dados de Usuários            |
+                      +---------------------------------------+
+                      | Banco de Dados de Exercícios          |
+                      +---------------------------------------+
+                      | Banco de Dados de Aulas               |
+                      +---------------------------------------+
+                      | Banco de Dados de Alimentos           |
  +---------------------------------------+
 
 A solução implementada conta com os seguintes módulos:

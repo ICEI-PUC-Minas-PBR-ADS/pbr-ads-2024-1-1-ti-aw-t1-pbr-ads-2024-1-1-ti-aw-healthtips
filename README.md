@@ -11,7 +11,6 @@ Alguns fatores como, correria do dia a dia, dificuldade de locomoção, faz com 
 
 ## Integrantes
 
-* Esdras Misael Da Silva Ferreira 
 * Franks Henrique Carvalho De Castro 
 * João Miguel Da Silva Fernandes 
 * Lincon Rangel Schaper  

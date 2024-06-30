@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- By Lincon-->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  <link rel="stylesheet" href="assets/css/quemSomos.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inknut Antiqua:wght@600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Krona One:wght@400&display=swap" />
+</head>
+
+<body>
+  <!--Cabeçalho-->
+  <header>
+    <div class="logo">
+      <img src="/assets/img/logo.png" alt="Health Tips Logo">
+      <div class="titulo">
+        <div class="tituloprincipal">Health</div>
+        <div class="titulosecundario">T i p s</div>
+      </div>
+    </div>
+    <nav>
+      <ul class="auth-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cadastro.html">Log up</a></li>
+        <li><a href="login.html">Log in</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="menu">
+    <nav>
+      <ul class="main-nav">
+        <li><a href="servico.html">Serviços</a></li>
+        <li><a href="#">Suporte</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  </div>
+  <div class="rectangle-div" data-scroll-to="rectangle"></div>
+  <div class="bem-vindo-ao-nosso-container">
+    <span class="bem-vindo-ao-nosso-container1">
+      <p class="bem-vindo-ao-nosso">
+        &nbsp; &nbsp;Bem-vindo ao nosso espaço de saúde e bem-estar! Nós somos um grupo
+        de entusiastas da saúde, Nossa jornada começou com uma simples
+        ideia: todos merecem acesso à informação e orientação confiáveis
+        para alcançar seu melhor estado de saúde.
+      </p>
+      <p class="bem-vindo-ao-nosso">&nbsp;</p>
+      <p class="bem-vindo-ao-nosso">
+        Nosso time é composto por uma equipe diversificada de profissionais
+        de saúde, incluindo, nutricionistas, e educadores físicos. Unidos
+        pela mesma missão, Cada membro da nossa equipe tem sua própria
+        história única de como a saúde e o bem-estar transformaram suas
+        vidas. Desde superar desafios pessoais até encontrar o equilíbrio
+        entre trabalho, família e autocuidado, compartilhamos nossas
+        jornadas para mostrar que é possível alcançar uma vida saudável e
+        feliz, independentemente dos obstáculos no caminho.
+      </p>
+      <p class="bem-vindo-ao-nosso">&nbsp;</p>
+      <p class="bem-vindo-ao-nosso">
+        Acreditamos que a chave para uma boa saúde é a educação e o
+        empoderamento. Por isso, nosso site é dedicado a fornecer
+        informações precisas e práticas, desde dicas simples de nutrição até
+        estratégias avançadas de gestão do estresse. Estamos aqui para
+        guiá-lo em sua jornada de saúde, oferecendo suporte, motivação e
+        recursos confiáveis a cada passo do caminho.
+      </p>
+      <p class="bem-vindo-ao-nosso">
+        Junte-se a nós nesta jornada rumo a uma vida mais saudável e
+        vibrante. Seja bem-vindo à nossa comunidade de saúde e bem-estar!
+      </p>
+    </span>
+
+    <div class="container">
+      <img src="/assets/img/rectangle-23@2x.png" alt="Imagem 1" class="image">
+      <img src="/assets/img/rectangle-24@2x.png" alt="Imagem 2" class="image">
+    </div>
+
+    <!----------------------------------------------------------------------------->
+    <!-- Rodapé -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section about">
+          <h2>Sobre Nós</h2>
+          <p>Somos uma empresa dedicada a fornecer os melhores serviços para nossos clientes.</p>
+        </div>
+        <div class="footer-section links">
+          <h2>Links Rápidos</h2>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="quemSomos.html">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-section social">
+          <h2>Siga-nos</h2>
+          <div class="social-links">
+            <a href="https://github.com/LinconR"> Facebook</a>
+            <a href="https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2024-1-1-ti-aw-t1-pbr-ads-2024-1-1-ti-aw-healthtips"> Git_Hub</a>
+            <a href="https://github.com/Ludcaroline_"> Instagram</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2024 HEALTH TIPS. Todos os direitos reservados.
+      </div>
+    </footer>
+
+    <script>
+      var quemSomos = document.getElementById("quemSomos");
+      if (quemSomos) {
+        quemSomos.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='rectangle']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+    </script>
+</body>
+
+</html>

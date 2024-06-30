@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Senha</title>
+     <!--By João Miguel--> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(255, 255, 225);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #a5d6a7;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #388e3c;
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #2e7d32;
+        }
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #c8e6c9;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #66bb6a;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #57a157;
+        }
+        #ed, #cor{
+            text-decoration: none;
+            list-style: none;
+            color: #FF1B1B;
+        }
+       
+    </style>
+</head>
+<body>
+    <div id="voltar">
+        <div class="container">
+            <h2>Nova Senha</h2>
+            <form>
+                <label for="new-password">Nova Senha:</label>
+                <input type="password" id="new-password" name="new-password" required>
+
+                <label for="repeat-password">Repita a Nova Senha:</label>
+                <input type="password" id="repeat-password" name="repeat-password" required>
+
+                <button type="submit">Salvar Senha</button>
+            </form>
+        </div>
+        <div><a href="login.html" id="ed"><h2 id="cor">Log In</h2></a></div>
+    </div>
+</body>
+</html>

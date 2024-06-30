@@ -1,0 +1,251 @@
+/*Lincon, Ludmilla*/
+
+/*Geral*/
+html{
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+body{
+    background-color: rgb(255, 255, 225);
+}
+
+/*Cabeçalho*/
+header {
+    background-color: #fff36a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10rem;
+    width: 100%
+}
+
+
+.logo { 
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    width: 5px;
+}
+
+.tituloprincipal{
+    color: #13a000;
+    font-size: 5rem;
+    margin-bottom: 0rem;
+    padding: 0rem;
+    margin: 1rem;
+
+}
+.titulosecundario{
+    color: #d50000;
+    font-size: 2rem;
+    margin-top: 0rem;
+    padding: 0rem;
+    margin: 1rem;
+}
+
+.main-nav {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    background-color: #6cc261;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.main-nav, li {
+    margin: 0px;
+    display: flex;
+    padding: 7px;  
+}
+li {
+    color: #66CC66; 
+    font-weight: bold;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.auth-nav {
+    list-style: none;
+    padding: 5rem;
+    margin: 0;
+    display: flex;
+    margin-left: 1px;
+    font-size: 20px;
+}
+.auth-nav li {
+    margin: 0 15px;
+}
+
+.auth-nav a {
+    text-decoration: none;
+    color: #66CC66; 
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header nav ul.auth-nav a:hover {
+    color: #FF3333; /* Red color on hover */
+}
+
+
+
+
+
+/*Main - LOGIN*/
+img {
+    width: 30rem;
+    padding: 8rem 4rem;
+    border-radius: 10rem;
+    display:flex;
+}
+
+section{
+    text-align: center;
+    display: inline-flex;  
+    padding: 0rem 10rem;
+      
+}
+
+h1, h2, #recuperar, #recuperarS {
+    color: #FF1B1B;
+    text-decoration: none;
+    list-style: none;
+}
+#recuperar{
+    text-align: justify;
+    padding: 0rem 4rem;
+    margin-left: 5rem;
+    width: 100%;
+}
+
+.dados{
+    padding: 6rem;
+}
+
+.formulariologin {
+    border-radius: solid #7dca72;
+    border-radius: 10px;
+    height: 18rem;
+    background-color:  #7dca72;
+    padding: 2rem 3rem 0rem 2rem;   
+    width: 100%;
+}
+
+button {
+    background-color: rgb(194, 186, 186);
+    width: 6rem;
+    text-align: center;
+}
+
+.cadastrar{
+    border-radius: solid #7dca72;
+    border-radius: 10px;
+    height: 2rem;
+    background-color:  #7dca72;
+    padding: 1rem 3rem 0rem 2rem;
+    width: 100%;
+}
+
+h2{
+    padding-left: 5rem;
+}
+
+/*Main - CADASTRO*/
+#cad{
+    color: black;
+    padding-bottom: 2rem;
+}
+.formulario{
+    border-radius: solid #7dca72;
+    border-radius: 10px;
+    height: 45rem;
+    width: 20rem;
+    background-color:  #7dca72;
+    padding: 2rem 2rem 0rem 2rem;  
+    margin-top: 5rem;
+}
+#barras {
+    padding: 8px;
+    width: 100%;
+    position: relative;
+}
+
+#obs{
+    color:red;
+    
+}
+p{
+    display:flex;
+}
+
+.imagemCadastro {
+    width: 50rem;
+    padding: 2rem 4rem;
+    border-radius: 10rem;
+    display:flex;
+}
+
+#validacaoEmail, #validacaoSenha, #validacaoCPF{
+    color: red;
+}
+
+#registro{
+    display: none;
+}
+
+.lnr-eye{
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+    cursor: pointer;
+    color:#FF1B1B;
+}
+input {
+    border-radius: 5;
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+/*Ficha alimentação*/
+
+.container {
+    display: flex;
+    text-align: center;
+    padding: 2rem 1rem 0rem 1rem;
+    justify-content: space-between;
+}
+
+#fichaA, #fichaB {
+    background-color:  #7dca72;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 40rem;
+}
+
+.container h1{
+    padding-left: 2rem;
+    color:#FF1B1B;
+}
+
+.container h2{
+    color:#474545;
+    padding-right: 3rem;
+}
+
+.tam {
+    height: 5rem;
+    text-align: center;
+}
+
+

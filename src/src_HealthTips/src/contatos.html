@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!--by João-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contatos</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/contatos.css">
+
+
+</head>
+
+<body>
+     <!--Cabeçalho-->
+     <header>
+        <div class="logo">
+            <img src="/assets/img/logo.png" alt="Health Tips Logo">
+            <div class="titulo">
+                <div class="tituloprincipal">Health</div>
+                <div class="titulosecundario">T i p s</div>
+            </div>
+        </div>
+        <nav>
+            <ul class="auth-nav">
+                <li><a href="usuario.html">Voltar</a></li>
+                <li><a href="login.html">Log out</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Personal Trainers Disponíveis</h1>
+        <ul>
+        <li>
+        <div class="info">
+        <div class="name">Ana Silva</div>
+        <div class="details specialty">Especialidade: Treinamento Funcional</div>
+        <div class="details email">E-mail: ana.silva@academia.com</div>
+        </div>
+        </li>
+        <li>
+        <div class="info">
+        <div class="name">Roberto Santos</div>
+        <div class="details specialty">Especialidade: Nutricionista</div>
+        <div class="details email">E-mail: roberto@hotmail.com</div>
+        </div>
+        </li>
+        <li>
+        <div class="info">
+        <div class="name">Carla Souza</div>
+        <div class="details specialty">Especialidade: Pilates</div>
+        <div class="details email">E-mail: carla.souza@academia.com</div>
+        </div>
+        </li>
+        <li>
+        <div class="info">
+        <div class="name">Diego Lima</div>
+        <div class="details specialty">Especialidade: Crossfit</div>
+        <div class="details email">E-mail: diego.lima@academia.com</div>
+        </div>
+        </li>
+        <li>
+        <div class="info">
+        <div class="name">Elaine Costa</div>
+        <div class="details specialty">Especialidade: Yoga</div>
+        <div class="details email">E-mail: elaine.costa@academia.com</div>
+        </div>
+        </li>
+        </ul>
+        </div>
+
+   
+</body>
+</html>
+
+<!--<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Trainers Disponíveis</title>
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #d5f5d5;
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+min-height: 100vh;
+}
+header {
+width: 100%;
+background-color: #fff;
+padding: 10px 20px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-sizing: border-box;
+}
+.logo {
+display: flex;
+align-items: center;
+}
+.logo img {
+height: 50px;
+}
+.titulo {
+margin-left: 10px;
+}
+.tituloprincipal {
+font-size: 1.5em;
+font-weight: bold;
+color: #333;
+}
+.titulosecundario {
+font-size: 1em;
+color: #666;
+}
+nav {
+display: flex;
+}
+.auth-nav, .main-nav {
+display: flex;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+.auth-nav li, .main-nav li {
+margin: 0 15px;
+}
+.auth-nav a, .main-nav a {
+text-decoration: none;
+color: #333;
+font-weight: bold;
+transition: color 0.3s;
+}
+.auth-nav a:hover, .main-nav a:hover {
+color: #4caf50;
+}
+.menu {
+width: 100%;
+background-color: #fff;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+margin-top: 10px;
+box-sizing: border-box;
+}
+.menu nav {
+display: flex;
+justify-content: center;
+}
+.container {
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+width: 80%;
+max-width: 600px;
+margin: 20px 0;
+}
+h1 {
+text-align: center;
+color: #333;
+margin-bottom: 20px;
+font-size: 2em;
+}
+ul {
+list-style-type: none;
+padding: 0;
+}
+li {
+background-color: #e0e0e0;
+margin: 15px 0;
+padding: 15px;
+border-radius: 10px;
+transition: background-color 0.3s, transform 0.3s;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+li:hover {
+background-color: #ccc;
+transform: scale(1.02);
+}
+.details {
+color: #4caf50;
+font-weight: bold;
+}
+.info {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.name {
+font-weight: bold;
+font-size: 1.5em;
+margin-bottom: 5px;
+}
+.specialty, .email {
+margin: 2px 0;
+}
+footer {
+background-color: #333;
+color: #fff;
+padding: 10px 20px;
+text-align: center;
+width: 100%;
+position: fixed;
+bottom: 0;
+display: flex;
+justify-content: center;
+gap: 15px;
+}
+footer a {
+color: #fff;
+text-decoration: none;
+transition: color 0.3s;
+}
+footer a:hover {
+color: #4caf50;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">
+<img src="/public/logo.png" alt="Health Tips Logo">
+<div class="titulo">
+<div class="tituloprincipal">Health</div>
+<div class="titulosecundario">T i p s</div>
+</div>
+</div>
+<nav>
+<ul class="auth-nav">
+<li><a href="#">Home</a></li>
+<li><a href="#">Log up</a></li>
+<li><a href="#">Log in</a></li>
+</ul>
+</nav>
+</header>
+<div class="menu">
+<nav>
+<ul class="main-nav">
+<li><a href="#">Serviços</a></li>
+<li><a href="#">Dicas de Saúde</a></li>
+<li><a href="#">Quem somos</a></li>
+<li><a href="#">Suporte</a></li>
+</ul>
+</nav>
+</div>
+<div class="container">
+<h1>Personal Trainers Disponíveis</h1>
+<ul>
+<li>
+<div class="info">
+<div class="name">Ana Silva</div>
+<div class="details specialty">Especialidade: Treinamento Funcional</div>
+<div class="details email">E-mail: ana.silva@academia.com</div>
+</div>
+</li>
+<li>
+<div class="info">
+<div class="name">Bruno Santos</div>
+<div class="details specialty">Especialidade: Musculação</div>
+<div class="details email">E-mail: bruno.santos@academia.com</div>
+</div>
+</li>
+<li>
+<div class="info">
+<div class="name">Carla Souza</div>
+<div class="details specialty">Especialidade: Pilates</div>
+<div class="details email">E-mail: carla.souza@academia.com</div>
+</div>
+</li>
+<li>
+<div class="info">
+<div class="name">Diego Lima</div>
+<div class="details specialty">Especialidade: Crossfit</div>
+<div class="details email">E-mail: diego.lima@academia.com</div>
+</div>
+</li>
+<li>
+<div class="info">
+<div class="name">Elaine Costa</div>
+<div class="details specialty">Especialidade: Yoga</div>
+<div class="details email">E-mail: elaine.costa@academia.com</div>
+</div>
+</li>
+</ul>
+</div>
+<footer>
+<a href="https://facebook.com/LinconR">Facebook</a>
+<a href="https://github.com/LinconR">GitHub</a>
+<a href="https://instagram.com/LinconR">Instagram</a>
+</footer>
+</body>
+</html>

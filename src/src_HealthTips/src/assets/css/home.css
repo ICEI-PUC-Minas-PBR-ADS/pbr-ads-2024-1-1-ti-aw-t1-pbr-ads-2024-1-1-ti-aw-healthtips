@@ -1,0 +1,240 @@
+/*Lincon*/
+
+/*Cabecalho*/
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+    line-height: 1.6;
+    font: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #fff36a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+.logo {
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    padding-left: 5rem;
+
+}
+
+.tituloprincipal {
+    color: #13a000;
+    font-size: 5rem;
+    margin-bottom: 0rem;
+    padding: 0rem;
+    margin: 1rem;
+
+}
+
+.titulosecundario {
+    color: #d50000;
+    font-size: 2rem;
+    margin-top: 0rem;
+    padding: 0rem;
+    margin: 1rem;
+}
+
+.main-nav {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    background-color: #13a000;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.main-nav,
+li {
+    margin: 0px;
+    display: flex;
+    padding: 10px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.auth-nav {
+    list-style: none;
+    padding: 5rem;
+    margin: 0;
+    display: flex;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.auth-nav li {
+    margin: 0 15px;
+}
+
+.auth-nav a {
+    text-decoration: none;
+    color: #66CC66;
+    /* Green color */
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header nav ul.auth-nav a:hover {
+    color: #FF3333;
+    /* Red color on hover */
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*imagem*/
+
+.imagem {
+    text-align: center;
+    border-color: black;
+    display: inline-block;
+
+}
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*Corpo da Pagina*/
+
+
+.video-container {
+    display: flex;
+}
+
+.texto1 {
+    display: inline;
+
+}
+
+.beneficios {
+    background-color: #c2fda6;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+
+}
+
+.pessoas {
+
+    justify-items: center;
+
+}
+
+.corpo1 {
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.video-container {
+    width: auto;
+
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*Rodape*/
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #fff36a;
+    color: #020202;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 5px;
+    min-width: 100px;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #020202;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section .social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-section .social-links a img {
+    width: 10px;
+    height: 10px;
+
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #13a000;
+    margin-top: 20px;
+}
+
+li{
+    display: inline;
+}
+
+@media (max-width: 768px) {
+    .image {
+        width: 80%;
+    }
+}

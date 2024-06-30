@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- By Ludmilla-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+</head>
+
+<body>
+
+    <!--Cabeçalho-->
+    <header>
+        <div class="logo">
+            <img src="/assets/img/logo.png" alt="Health Tips Logo">
+            <div class="titulo">
+                <div class="tituloprincipal">Health</div>
+                <div class="titulosecundario">T i p s</div>
+            </div>
+        </div>
+        <nav>
+            <ul class="auth-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Log in</a></li>
+            </ul>
+        </nav>
+    </header>
+
+ <main>
+    <section>
+        <div class="formulario">    
+            <h1 id="cad"><color=blck>Seja Bem Vindo</h1> 
+            <form class = "formulariocadastro">   
+            <select id="usuario" name="Acesso" placeholder="Selecione" onchange="toggleRegistro()" required> 
+            <option value="Selecione">Selecione</option>
+            <option value="Aluno">Aluno</option>
+            <option value="Profissional">Profissional</option> 
+            </select>
+            <br><br>
+            <div id="registro">
+                <div id="barras"><input type="text" id="especialidade" placeholder="Profissão"></div>
+                <div id="barras"><input type="text" id="registroP" placeholder="Registro"></div>
+            </div>           
+            <div id="barras"><input type="text" id="nome" placeholder="Nome completo" class="form-imput"></div>                       
+            <div id="barras"><input type="text" id="email" placeholder="E-mail" class="form-imput"></div>
+            <div id="validacaoEmail"></div>
+            <div id="barras"><input type="text" id=telefone placeholder="Telefone" class="form-imput"></div>
+            <div id="barras"><input type="number" id="cpf" placeholder="CPF" class="form-imput"></div>
+            <div id="validacaoCPF"></div>
+            <div id="barras"><input type="text" id="dataNascimento" placeholder="Data de Nascimento" class="form-imput"></div>
+            <div id="barras"><input type="text" id="endereco" placeholder="Endereço" class="form-imput"></div>
+            <div id="barras"><input type="password" class="olho" id="senha" placeholder="Senha">
+                <span class="lnr lnr-eye"></span>
+            </div>
+            <div id="barras"><input type="password" class="olho" id="confirmacaoSenha" placeholder="Confirmar senha">
+                <span class="lnr lnr-eye"></span>
+            </div>
+            <div id="validacaoSenha"></div>
+            <br>
+            <button onclick="enviar()" type="submit"><a href="#">Enviar</a></button>
+            <br>  
+            </form>         
+        </div>  
+        <div class="imagemCadastro">
+            <img src="assets/img/idosos_exercitando.jpeg" alt="casal se exercitando">
+        </div>                          
+    </section>
+    <script src="assets/js/cadastro.js"></script>
+    
+ </main>  
+</body>

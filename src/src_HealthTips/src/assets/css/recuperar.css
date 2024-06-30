@@ -1,0 +1,56 @@
+/*By João Miguel*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(255, 255, 225);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+.container h2 {
+  margin-bottom: 20px;
+  color: #2e7d32; /* Verde escuro */
+}
+.container input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.container button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+.container button:hover {
+  background-color: #45a049;
+}
+.container p {
+  margin-top: 10px;
+  color: #666;
+  font-size: 0.9em;
+}
+.container a {
+  color: #2e7d32;
+  text-decoration: none;
+}
+.container a:hover {
+  text-decoration: underline;
+}

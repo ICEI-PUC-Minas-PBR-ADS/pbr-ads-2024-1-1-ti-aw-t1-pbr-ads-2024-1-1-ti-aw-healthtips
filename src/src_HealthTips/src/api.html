@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- By Lincon-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Consultar Alimentos</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+</head>
+
+<body>
+     <!--Cabeçalho-->
+    <header>
+        <div class="logo">
+            <img src="/assets/img/logo.png" alt="Health Tips Logo">
+            <div class="titulo">
+                <div class="tituloprincipal">Health</div>
+                <div class="titulosecundario">T i p s</div>
+            </div>
+        </div>
+        <nav>
+            <ul class="auth-nav">
+                <li><a href="usuario.html">Voltar</a></li>
+                <li><a href="login.html">Log out</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Busca de Alimentos</h1>
+        <form id="food-form">
+            <input type="text" id="food-input" placeholder="Digite o nome de um alimento" required>
+            <button type="submit">Buscar</button>
+        </form>
+        <button id="show-foods-button">Mostrar Alimentos Comuns</button>
+        <div id="result"></div>
+        <div id="common-foods"></div>
+        <div id="error-foods"></div> <!-- Div para exibir alimentos com erros -->
+    </div>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>

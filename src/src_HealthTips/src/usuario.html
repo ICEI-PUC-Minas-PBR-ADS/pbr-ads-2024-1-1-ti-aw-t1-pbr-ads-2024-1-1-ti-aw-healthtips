@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Usuário</title>
+  <link href="/assets/css/usuario.css" rel="stylesheet" type="text/css" />
+  <!--by Franks-->
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+        <img src="/assets/img/logo.png" alt="Health Tips Logo" >
+        <div class="titulo">
+            <div class="tituloprincipal">Health</div>
+            <div class="titulosecundario">T i p s</div>
+        </div>
+    </div>
+    <nav>
+        <ul class="auth-nav">
+            <li><a href="login.html">Sair</a></li>
+            <li id="nome1"></li>
+            <li id="ID"></li>
+        </ul>
+    </nav>
+</header>
+<div class="menu">
+    <nav>
+        <ul class="main-nav">
+            <li><a href="contatos.html">Contatos Profissionais</a></li>
+            <li><a href="#">Ficha de exercícios</a></li>
+            <li><a href="#" onclick="Enviar()">Ficha Alimentação</a></li>
+            <li><a href="api.html">Consulta Alimentos</a></li>
+        </ul>
+    </nav>
+</div>
+  <main id="container">
+    <section id="img">
+      <img src="assets/img/treiner.svg" alt="imagem-de-fundo">
+    </section>
+    <section id="calculator">
+      <form id="form">
+        <h1 id="title">
+          calculador - IMC
+        </h1>
+        <div class="input-box">
+          <label for="weight">
+            peso em Kg
+          </label>
+          <div class="input-field">
+            <i class="fa-solid fa-weight-hanging"></i>
+            <input type="number" id="weight" name="weight" required>
+            <span>
+              Kg
+            </span>
+          </div>
+        </div>
+        <div class="input-box">
+          <label for="height">
+            Altura em metros
+          </label>
+          <div class="input-field">
+            <i class="fa-solid fa-ruler"></i>
+            <input type="number" step="0.01" id="height" name="height" required>
+            <span>
+              ALT
+            </span>
+          </div>
+        </div>
+        <button id="calculate">
+          Calcular
+        </button>
+      </form>
+      <div id="infor" class="hidden">
+        <div id="result">
+          <div id="bmi">
+            <span id="value"></span>
+            <span>Seu IMC</span>
+          </div>
+          <div id="description">
+            <span></span>
+          </div>
+        </div>
+        <div id="more-info">
+          <a href="https://www.saudebemestar.pt/pt/blog/nutricao/imc/" target="_black">Mais informações sobre o IMC</a>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </div>
+      </div>
+    </section>
+
+  </main> 
+  
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section about">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma empresa dedicada a fornecer os melhores serviços para nossos clientes.</p>
+      </div>
+      <div class="footer-section links">
+        <h2>Links Rápidos</h2>
+        <ul>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Sobre</a></li>
+        </ul>
+      </div>
+      <div class="footer-section social">
+        <h2>Siga-nos</h2>
+        <div class="social-links">
+          <a href="https://github.com/LinconR"> Facebook</a>
+          <a href="https://github.com/LinconR"> GitHub</a>
+          <a href="https://github.com/LinconR"> Instagram</a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2024 MeuSite. Todos os direitos reservados.
+    </div>
+  </footer>
+<script src="/assets/js/usuario.js"></script>
+<script src="/assets/js/usuarioID.js"></script>
+</body>
+
+</html>
